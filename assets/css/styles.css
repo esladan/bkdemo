@@ -4,6 +4,7 @@ body{
     margin: 0;
     /* padding: 10px; */
     font-family: 'Montserrat', sans-serif;
+    overflow-x: scroll;
 
 }
 .top{
@@ -280,5 +281,15 @@ nav .nav-items{
     }
     .user-item img{
         width: 150px;
+    }
+}
+@media screen and (max-width:350px) {
+    .stores .item img{
+        width: 120px;
+        
+    }
+    #newsleter label input{
+        width: 250px;
+       
     }
 }
