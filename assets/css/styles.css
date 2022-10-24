@@ -223,7 +223,9 @@ nav .nav-items{
     .brand-logo{
         z-index: 10;
     }
-  
+    .register button{
+        background-color: #23c686 !important;
+    }
     nav .nav-items{
         z-index: 10 !important;
     }
